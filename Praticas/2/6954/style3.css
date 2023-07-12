@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+    padding: 15px;
+
+    background-image: url("https://media.istockphoto.com/id/952039286/photo/abstract-background-wallpaper.jpg?b=1&s=170667a&w=0&k=20&c=O42TVdq7QcprHBQS6lrIw_AkF04c3AkyCmtM1ZGJitA=");
+    background-size: cover;
+}
+
+/* === Estilos para o topo ================================================*/
+@keyframes keyMove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 50%;
+    }
+}
+
+#topo {
+    font-size: 40px;
+    color: yellow;
+    width: 100%;
+
+    position: relative;
+    animation: keyMove 5s infinite;
+
+}
+
+/* === Estilos para o menu ================================================*/
+#menu {
+    width: 100%;
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border: 5px dashed #fff;
+}
+
+#menu li {
+    list-style-type: none;
+}
+
+#menu a {
+    font-size: 20px;
+    color: #e9ffcc;
+}
+
+#menu a:hover {
+    color: #f48686;
+}
+
+/* === Estilos para o conteúdo ===========================================*/
+#conteudo {
+    color: #e9ffcc;
+    text-align: justify;
+    padding: 50px;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+
+    border: 5px solid #fff;
+}
+
+#conteudo h2 {
+    font-size: 40px;
+    color: yellow;
+}
+
+#conteudo p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+/* === Estilos para o rodapé =============================================*/
+#rodape {
+    font-size: 20px;
+    color: #8ecae6;
+}

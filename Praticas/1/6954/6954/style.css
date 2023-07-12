@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 18px;
+    background-color: aliceblue;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: black;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.infomation-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+
+    margin-left: 50px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+.container {
+    margin-top: 50px;
+}

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    padding: 18px;
+}
+
+.form-container {
+    border: 1px solid black;
+
+    width: 60%;
+    height: 280px;
+    padding: 8px;
+}
+
+.form-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 16px;
+    padding: 8px;
+
+    margin-bottom: 6px;
+}
+
+.personal-info,
+.address-info {
+    display: flex;
+    flex-direction: column;
+
+    gap: 4px;
+}
+
+.btn-submit-form {
+    width: 100%;
+    cursor: pointer;
+
+    color: azure;
+    background-color: #52b788;
+    border: none;
+
+    padding: 8px;
+}
+
+.btn-submit-form:hover {
+    background-color: #18c75b;
+}
+
+.table-container {
+    border: 1px solid black;
+
+    width: 60%;
+    padding: 8px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+thead {
+    background-color: #0e95e4;
+}
+
+.btn-edit{
+    color: green;
+}
+
+.btn-delete{
+    color: red;
+}
+
+td {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.thead-view>tr>th {
+    padding: 10px;
+}
+
+.tbody-view>tr>td {
+    border: none;
+    text-align: center;
+}
+
+.div-pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
+    width: 60%;
+}
+
+.number-pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 4%;
+}
