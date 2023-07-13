@@ -7,6 +7,8 @@ Durante o primeiro periodo de 2023.
 * Banco de Dados MySQL
 * PHP
 * JavaScript
+* HTML5
+* CSS3
 * Ajax
 
 ## 🔩 Atividades Realizadas
